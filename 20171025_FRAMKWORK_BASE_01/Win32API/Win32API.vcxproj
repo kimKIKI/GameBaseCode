@@ -149,6 +149,7 @@
     <ClInclude Include="cPlayer.h" />
     <ClInclude Include="cProgressBar.h" />
     <ClInclude Include="cSingletonBase.h" />
+    <ClInclude Include="cTimer.h" />
     <ClInclude Include="MacroUtility.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="cPixelCollision.cpp" />
     <ClCompile Include="cPlayer.cpp" />
     <ClCompile Include="cProgressBar.cpp" />
+    <ClCompile Include="cTimer.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

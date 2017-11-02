@@ -1,2 +1,47 @@
-﻿  cMainGame.cpp
-  Win32API.vcxproj -> C:\Users\mycolcol\Downloads\SGA_국기\CodeBase\20171025_FRAMKWORK_BASE_01\x64\Debug\Win32API.exe
+﻿  stdafx.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cimage.h(148): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cimage.h(154): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cTimer.cpp
+  cProgressBar.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cprogressbar.cpp(33): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cPlayer.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cplayer.cpp(30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cplayer.cpp(31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cplayer.cpp(32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cplayer.cpp(30): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1334): note: 'itoa' 선언을 참조하십시오.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cplayer.cpp(31): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1334): note: 'itoa' 선언을 참조하십시오.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cplayer.cpp(32): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1334): note: 'itoa' 선언을 참조하십시오.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cplayer.cpp(85): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cPixelCollision.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cpixelcollision.cpp(7): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cpixelcollision.cpp(20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cpixelcollision.cpp(30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cpixelcollision.cpp(40): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cMap.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cmap.cpp(41): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cMainGame.cpp
+  cKeyManager.cpp
+  cImageManager.cpp
+  cImage.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cimage.cpp(81): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cimage.cpp(116): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cimage.cpp(153): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cGameNode.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cgamenode.cpp(38): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cFileDataManager.cpp
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cfiledatamanager.cpp(19): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cfiledatamanager.cpp(41): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cfiledatamanager.cpp(44): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cfiledatamanager.cpp(75): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' 선언을 참조하십시오.
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cfiledatamanager.cpp(79): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' 선언을 참조하십시오.
+  Win32API.cpp
+  코드를 생성하고 있습니다...
+c:\users\mycolcol\desktop\sga\gamebasecode\20171025_framkwork_base_01\win32api\cfiledatamanager.cpp(47): warning C4172: 지역 변수 또는 임시: szBuf의 주소를 반환하고 있습니다.
+  Win32API.vcxproj -> C:\Users\mycolcol\Desktop\SGA\GameBaseCode\20171025_FRAMKWORK_BASE_01\x64\Debug\Win32API.exe

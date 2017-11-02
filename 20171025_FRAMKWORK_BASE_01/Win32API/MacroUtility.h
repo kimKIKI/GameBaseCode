@@ -156,3 +156,34 @@ inline void BezierInterpolation2(OUT float& x, OUT float& y,
 
 	BezierInterpolation(x, y, x1, y1, x2, y2, x3, y3, t);
 }
+
+inline RECT ViewPortMake(int x, int y, int Width, int Height)
+{
+	RECT rt;
+	rt = RectMakeCenter(x, y, WINSIZEX, WINSIZEY);
+
+	if (rt.left < 0)
+	{
+		rt.left = 0;
+		rt.right = WINSIZEX;
+	}
+	else if (rt.right > Width)
+	{
+		rt.right = Width;
+		rt.left = rt.right - WINSIZEX;
+	}
+
+	if (rt.top < 0)
+	{
+		rt.top = 0;
+		rt.bottom = WINSIZEY;
+	}
+	else if (rt.bottom > Height)
+	{
+		rt.bottom = Height;
+		rt.top = rt.bottom - WINSIZEY;
+	}
+
+	cout << "VPM" << rt.left << " " << rt.top << " " << rt.right << " " << rt.bottom << endl;
+	return rt;
+}

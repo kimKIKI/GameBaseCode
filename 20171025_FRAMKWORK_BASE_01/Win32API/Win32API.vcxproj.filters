@@ -84,6 +84,9 @@
     <ClInclude Include="cPixelCollision.h">
       <Filter>GameFramework2D\2. 매니져</Filter>
     </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>GameFramework2D\4. 기본 소스</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -121,6 +124,9 @@
     </ClCompile>
     <ClCompile Include="cPixelCollision.cpp">
       <Filter>GameFramework2D\2. 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>GameFramework2D\4. 기본 소스</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

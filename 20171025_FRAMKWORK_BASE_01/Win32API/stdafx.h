@@ -4,7 +4,7 @@
 //
 
 #pragma once
-
+#pragma comment(linker,"/entry:wWinMainCRTStartup /subsystem:console")
 #include "targetver.h"
 
 #define WIN32_LEAN_AND_MEAN             // 거의 사용되지 않는 내용은 Windows 헤더에서 제외합니다.
@@ -21,6 +21,7 @@
 #include <string.h>
 #include <map>
 #include <assert.h>
+#include<iostream>
 
 using namespace std;
 

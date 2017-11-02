@@ -410,6 +410,19 @@ void cImage::FrameRender(HDC hdc, int destX, int destY,
 	FrameRender(hdc, destX, destY);
 }
 
+void cImage::ViewPortRender(HDC hdc, RECT ViewPort)
+{
+	GdiTransparentBlt(hdc,
+		0, 0,
+		WINSIZEX, WINSIZEY,
+		m_pImageInfo->hMemDC
+		, ViewPort.left, ViewPort.top
+		, ViewPort.right - ViewPort.left, ViewPort.bottom - ViewPort.top,
+		RGB(255, 0, 255));
+
+	//cout << ViewPort.right << " " << ViewPort.bottom << endl;
+}
+
 void cImage::SetTransColor(bool isTrans, COLORREF transColor)
 {
 	m_isTrans = isTrans;
