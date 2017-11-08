@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{c1c7c86c-d751-4e4c-9d29-b2c89675b19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\1. 메인 게임">
+      <UniqueIdentifier>{023dd42e-44d0-414b-b3f9-3925cc636bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\2. 매니져">
+      <UniqueIdentifier>{38111e87-8eed-44b0-8058-c6c49e4eff77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\3. 유틸">
+      <UniqueIdentifier>{751de94c-e68b-4a89-a815-3332bf6e313d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\5. 게임 소스">
+      <UniqueIdentifier>{c5015f1e-2157-446f-b8e8-944f5fca3808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\4. 기본 소스">
+      <UniqueIdentifier>{7a478b5e-2437-4bfc-a466-203dda823bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\2. 매니져\이미지 매니져">
+      <UniqueIdentifier>{ea918679-f1eb-4a5a-b56b-01622d6ab8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\2. 매니져\픽셀 충돌">
+      <UniqueIdentifier>{c51dd652-a181-4fb3-b99b-2f3938505a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\2. 매니져\키 매니져">
+      <UniqueIdentifier>{cec9a650-5ecd-4abc-b1ae-eddd0f5d806c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\2. 매니져\파일 매니져">
+      <UniqueIdentifier>{6d8cc761-207b-41d3-8ce3-c5fb47d55640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\2. 매니져\타임 매니져">
+      <UniqueIdentifier>{48dae3b4-1bf6-445a-b2ca-eb4623f671cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32API.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameNode.h">
+      <Filter>GameFramework2D\1. 메인 게임</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>GameFramework2D\1. 메인 게임</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingletonBase.h">
+      <Filter>GameFramework2D\2. 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroUtility.h">
+      <Filter>GameFramework2D\3. 유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="cProgressBar.h">
+      <Filter>GameFramework2D\4. 기본 소스</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>GameFramework2D\4. 기본 소스</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>GameFramework2D\2. 매니져\이미지 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cImage.h">
+      <Filter>GameFramework2D\2. 매니져\이미지 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cPixelCollision.h">
+      <Filter>GameFramework2D\2. 매니져\픽셀 충돌</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>GameFramework2D\2. 매니져\키 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cFileData.h">
+      <Filter>GameFramework2D\2. 매니져\파일 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>GameFramework2D\2. 매니져\타임 매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="cIniData.h">
+      <Filter>GameFramework2D\2. 매니져\파일 매니져</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32API.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameNode.cpp">
+      <Filter>GameFramework2D\1. 메인 게임</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>GameFramework2D\1. 메인 게임</Filter>
+    </ClCompile>
+    <ClCompile Include="cProgressBar.cpp">
+      <Filter>GameFramework2D\4. 기본 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>GameFramework2D\4. 기본 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>GameFramework2D\2. 매니져\이미지 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cImage.cpp">
+      <Filter>GameFramework2D\2. 매니져\이미지 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cPixelCollision.cpp">
+      <Filter>GameFramework2D\2. 매니져\픽셀 충돌</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>GameFramework2D\2. 매니져\키 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cFileData.cpp">
+      <Filter>GameFramework2D\2. 매니져\파일 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>GameFramework2D\2. 매니져\타임 매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="cIniData.cpp">
+      <Filter>GameFramework2D\2. 매니져\파일 매니져</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Win32API.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Win32API.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
